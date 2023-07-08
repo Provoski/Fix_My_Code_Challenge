@@ -2,7 +2,7 @@
 """square module"""
 
 
-class square():
+class Square():
     """square class"""
     width = 0
     height = 0
@@ -16,7 +16,7 @@ class square():
         """ Area of the square """
         return self.width * self.width
 
-    def PermiterOfMySquare(self):
+    def permiter_of_my_square(self):
         """perimeter of a square"""
         return (self.width * 2) + (self.height * 2)
 
@@ -27,7 +27,7 @@ class square():
 
 if __name__ == "__main__":
 
-    s = square(width=12, height=9)
+    s = Square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
-    print(s.PermiterOfMySquare())
+    print(s.permiter_of_my_square())
