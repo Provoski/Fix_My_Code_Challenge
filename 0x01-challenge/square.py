@@ -7,14 +7,14 @@ class Square():
     width = 0
     height = 0
 
-    def __init__(self, width, height, *args, **kwargs):
+    def __init__(self, width, height):
         """class constructor"""
         self.width = width
         self.height = height
 
     def area_of_my_square(self):
         """ Area of the square """
-        return self.width * self.width
+        return self.width * self.height
 
     def permiter_of_my_square(self):
         """perimeter of a square"""
